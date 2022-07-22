@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+  <body>
+    <h1>chip8-emulator</h1>
+    <label for="fileinput">Upload a Chip-8 game: </label>
+    <input type="file" id="fileinput" autocomplete="off" />
+    <canvas id="canvas">If you see this message, then your browser doesn't support HTML5</canvas>
+  </body>
+  <script type="module" src="index.js"></script>
+</html>
